@@ -101,14 +101,6 @@ Map<String, double> chapterCompletedOptions = {
   "100%": 1.0,
 };
 
-List<String> statuses = [
-  "PLANNING",
-  "CURRENT",
-  "COMPLETED",
-  "REPEATING",
-  "PAUSED",
-  "DROPPED"
-];
 
 void setBannerPallete(
     String url, void Function(void Function()) setState) async {
